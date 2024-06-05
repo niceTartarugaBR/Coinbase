@@ -1,0 +1,13 @@
+.plataformas{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+.plataformas .plataformasWrapper{
+    z-index: 2;
+    position: absolute;
+}
+
+.plataformasText{
+    font-size:  25px;
+    display: flex;
+}
