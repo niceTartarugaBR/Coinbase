@@ -1,13 +1,60 @@
 .plataformas{
     padding-top: 1rem;
     padding-bottom: 5rem;
-}
-.plataformas .plataformasWrapper{
-    z-index: 2;
-    position: absolute;
+    max-width: 80rem;
 }
 
 .plataformasText{
-    font-size:  25px;
     display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.plataformasText h2{
+    font-size: 40px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 1rem;
+}
+
+.plataformasCardDiv{
+    margin: 1rem;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgba(237, 237, 237,1);
+    border-radius: 10px;
+}
+
+.plataformasCard{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.plataformasCardText{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
+}
+
+.plataformasCardText h2{
+    font-size: 20px;
+}
+.plataformasCardText p{
+    font-size: 17px;
+}
+
+@media(max-width: 600px){
+    .plataformasText h2{
+        font-size: 28px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
 }

@@ -1,25 +1,30 @@
+:root {
+  --bg-1: #ffffff;
+  --tamanho-maximo: 80rem;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background:#fff;
-    font-family: "Inter", arial;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  img {
-    display: block;
-    max-width: 100%;
-  }
-  
-  /* // Configuração global */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-1);
+  font-family: "Poppins", arial;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* // Configuração global */

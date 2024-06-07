@@ -1,0 +1,46 @@
+.estatistica{
+    background-color: rgba(0, 82, 255,1);
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.pais{
+    border-left: 1px solid #fff;
+    color: #fff;
+    padding: 0 1rem;
+    font-size: 64px;
+}
+.pais p{
+    font-size: 14px;
+}
+
+.protecao{
+    border-left: 1px solid #fff;
+    color: #fff;
+    padding: 0 1rem;
+    font-size: 64px;
+}
+.protecao p{
+    font-size: 14px;
+}
+
+.funcionarios{
+    border-left: 1px solid #fff;
+    color: #fff;
+    padding: 0 1rem;
+    font-size: 64px;
+}
+.funcionarios p{
+    font-size: 14px;
+}
+
+@media(max-width: 600px){
+    .estatistica{
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+    }
+}

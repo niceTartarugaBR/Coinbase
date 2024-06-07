@@ -2,7 +2,7 @@ import style from "../../components/plataformas/plataformas.module.css"
 import apple from "../../assets/img/Applestore.svg"
 import play from "../../assets/img/Playstore.svg"
 
-const plataformas = () => {
+const Plataformas = () => {
     return (
         <secion className={style.plataformas}>
             <div className={style.plataformasWrapper}>
@@ -44,4 +44,4 @@ const plataformas = () => {
     );
 };
 
-export default plataformas;
+export default Plataformas;
